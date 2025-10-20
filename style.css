@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.character1,
+.character2 {
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+}
+
+.character1 {
+    left: 50px;
+}
+
+.character2 {
+    right: 50px;
+}
