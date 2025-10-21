@@ -36,7 +36,7 @@ document.addEventListener('keydown', function (event) {
     setTimeout(function () {
       character1.src = "./images/character 2.gif";
       character1.style.height = "250px";
-    }, 1000);
+    }, 3000);
   }
 
   alert("Press these keys for chun li right arrow, left arrow , spacebar")
@@ -68,6 +68,6 @@ document.addEventListener('keydown', function (event) {
     setTimeout(function () {
       character2.src = "./images/character 1.gif";
       character2.style.height = "250px";
-    }, 1000);
+    }, 3000);
   }
 });
