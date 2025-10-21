@@ -14,12 +14,20 @@ document.addEventListener('keydown', function (event) {
     character1.src = "./images/walk.gif";
     left1 += 20;
     character1.style.left = left1 + "px";
+    setTimeout(function () {
+      character2.src = "./images/character 1.gif";
+      character2.style.height = "250px";
+    }, 1000);
   }
 
   if (event.key === "z" || event.key === "Z") {
     character1.src = "./images/run.gif";
     left1 -= 20;
     character1.style.left = left1 + "px";
+    setTimeout(function () {
+      character2.src = "./images/character 1.gif";
+      character2.style.height = "250px";
+    }, 1000);
   }
 
   if (event.key === "d" || event.key === "D") {
@@ -32,18 +40,26 @@ document.addEventListener('keydown', function (event) {
   }
 
   alert("Press these keys for chun li right arrow, left arrow , spacebar")
-  
+
   // === CHARACTER 2 (Right side) ===
   if (event.keyCode === 37) { // Left arrow
     character2.src = "./images/vblock.gif";
     right2 += 20;
     character2.style.right = right2 + "px";
+    setTimeout(function () {
+      character2.src = "./images/character 1.gif";
+      character2.style.height = "250px";
+    }, 1000);
   }
 
   if (event.keyCode === 39) { // Right arrow
     character2.src = "./images/walk2.gif";
     right2 -= 20;
     character2.style.right = right2 + "px";
+    setTimeout(function () {
+      character2.src = "./images/character 1.gif";
+      character2.style.height = "250px";
+    }, 1000);
   }
 
   if (event.keyCode === 32) { // Spacebar
